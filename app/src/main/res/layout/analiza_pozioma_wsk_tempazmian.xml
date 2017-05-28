@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/imageView"
+        style="@style/BackGroundImage"
+        android:layout_width="match_parent"
+        android:layout_height="405dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:visibility="visible" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:weightSum="1">
+
+            <TextView
+                android:id="@+id/textView14"
+                android:layout_width="match_parent"
+                android:layout_height="29dp"
+                android:text="ANALIA POZIOMA BILANSU"
+                android:textAlignment="center"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="72dp"
+                android:weightSum="10">
+
+                <TextView
+                    android:id="@+id/wsk_tzAT"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="5"
+                    android:paddingLeft="5dp"
+                    android:paddingTop="-10dp"
+                    android:text="Wskaźnik tempa zmian aktywów trwałych"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/wsk_tzAT1"
+                    android:layout_width="0dp"
+                    android:layout_height="50dp"
+                    android:layout_weight="5
+"
+                    android:ems="10"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="72dp"
+                android:weightSum="10">
+
+                <TextView
+                    android:id="@+id/wsk_tzAO"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="5"
+                    android:paddingLeft="5dp"
+                    android:paddingTop="-10dp"
+                    android:text="Wskaźnik tempa zmian aktywów obrotowych"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/wsk_tzAO1"
+                    android:layout_width="0dp"
+                    android:layout_height="55dp"
+                    android:layout_weight="5"
+                    android:ems="10"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="68dp"
+                android:weightSum="10">
+
+                <TextView
+                    android:id="@+id/wsk_tzA"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="5"
+                    android:paddingLeft="5dp"
+                    android:text="Wskaźnik tempa zmian aktywów"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/wsk_tzA1"
+                    android:layout_width="0dp"
+                    android:layout_height="55dp"
+                    android:layout_weight="5"
+                    android:ems="10"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="72dp"
+                android:weightSum="10">
+
+                <TextView
+                    android:id="@+id/wsk_tzKW"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="5"
+                    android:paddingLeft="5dp"
+                    android:text="Wskaźnik tempa zmian kapitałów własnych"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/wsk_tzKW1"
+                    android:layout_width="0dp"
+                    android:layout_height="55dp"
+                    android:layout_weight="5"
+                    android:ems="10"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="72dp"
+                android:weightSum="10">
+
+                <TextView
+                    android:id="@+id/wsk_strKO"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="5"
+                    android:paddingLeft="5dp"
+                    android:text="Wskaźnik tempa zmian kapitałów obcych"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/wsk_tzKO1"
+                    android:layout_width="0dp"
+                    android:layout_height="55dp"
+                    android:layout_weight="5"
+                    android:ems="10"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="66dp"
+                android:weightSum="10">
+
+                <TextView
+                    android:id="@+id/wsk_tzP"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="5"
+                    android:paddingLeft="5dp"
+                    android:text="Wskaźnik tempa zmian pasyw"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/wsk_tzP1"
+                    android:layout_width="0dp"
+                    android:layout_height="55dp"
+                    android:layout_weight="5"
+                    android:ems="10"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical|center_horizontal"
+                android:weightSum="9">
+
+                <Button
+                    android:id="@+id/button"
+                    android:layout_width="0dp"
+                    android:layout_height="50dp"
+                    android:layout_weight="3"
+                    android:background="@drawable/button"
+                    android:onClick="przejdzWskPokrycia"
+                    android:text="DALEJ"
+                    android:textColor="@android:color/background_light" />
+            </TableRow>
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/imageView"
+        style="@style/BackGroundImage"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:visibility="visible" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:weightSum="1">
+
+        <TextView
+            android:id="@+id/textView14"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="AKTYWA"
+            android:textAlignment="center"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="10">
+
+            <TextView
+                android:id="@+id/aktywa1"
+                android:layout_width="160dp"
+                android:layout_height="wrap_content"
+                android:paddingLeft="5dp"
+                android:text="AKTYWA"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:layout_weight="4" />
+
+            <TextView
+                android:id="@+id/rok_biezacy1"
+                android:layout_width="125dp"
+                android:layout_height="wrap_content"
+                android:text="ROK BIEŻĄCY"
+                android:textStyle="bold"
+                android:layout_weight="3" />
+
+            <TextView
+                android:id="@+id/rok_ubiegly1"
+                android:layout_width="125dp"
+                android:layout_height="wrap_content"
+                android:text="ROK UBIEGŁY"
+                android:textStyle="bold"
+                android:layout_weight="3" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="10">
+
+            <TextView
+                android:id="@+id/akt_tw"
+                android:layout_width="160dp"
+                android:layout_height="40dp"
+                android:paddingLeft="5dp"
+                android:paddingTop="-10dp"
+                android:text="A. AKTYWA TRWAŁE"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:layout_weight="4" />
+
+            <TextView
+                android:id="@+id/akt_trw1"
+                android:layout_width="125dp"
+                android:layout_height="40dp"
+                android:ems="10"
+                android:layout_weight="3" />
+
+            <TextView
+                android:id="@+id/akt_trw2"
+                android:layout_width="125dp"
+                android:layout_height="40dp"
+                android:ems="10"
+                android:layout_weight="3" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="83dp"
+            android:weightSum="10">
+
+            <TextView
+                android:id="@+id/wart_niem"
+                android:layout_width="160dp"
+                android:layout_height="55dp"
+                android:paddingLeft="5dp"
+                android:text="I. Wartości niematerialne i prawne"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:layout_weight="4" />
+
+            <EditText
+                android:id="@+id/aktywaTrwale1"
+                android:layout_width="125dp"
+                android:layout_height="55dp"
+                android:layout_weight="3"
+                android:ems="10"
+                android:inputType="numberDecimal|numberSigned"
+                android:text="0" />
+
+            <EditText
+                android:id="@+id/aktywaTrwaleUb1"
+                android:layout_width="125dp"
+                android:layout_height="55dp"
+                android:layout_weight="3"
+                android:ems="10"
+                android:inputType="numberDecimal|numberSigned"
+                android:text="0" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:weightSum="10">
+
+            <TextView
+                android:id="@+id/rzecz_aktw"
+                android:layout_width="160dp"
+                android:layout_height="55dp"
+                android:paddingLeft="5dp"
+                android:text="II. Rzeczowe aktywa trwałe"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:layout_weight="4" />
+
+            <EditText
+                android:id="@+id/aktywaTrwale2"
+                android:layout_width="125dp"
+                android:layout_height="55dp"
+                android:layout_weight="3"
+                android:ems="10"
+                android:inputType="numberDecimal|numberSigned"
+                android:text="0" />
+
+            <EditText
+                android:id="@+id/aktywaTrwaleUb2"
+                android:layout_width="125dp"
+                android:layout_height="55dp"
+                android:layout_weight="3"
+                android:ems="10"
+                android:inputType="numberDecimal|numberSigned"
+                android:text="0" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="75dp"
+            android:weightSum="10">
+
+            <TextView
+                android:id="@+id/inw_dl"
+                android:layout_width="0dp"
+                android:layout_height="55dp"
+                android:paddingLeft="5dp"
+                android:text="III. Inwestycje długoterminowe"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:layout_weight="4" />
+
+            <EditText
+                android:id="@+id/aktywaTrwale3"
+                android:layout_width="0dp"
+                android:layout_height="55dp"
+                android:layout_weight="3"
+                android:ems="10"
+                android:inputType="numberDecimal|numberSigned"
+                android:text="0" />
+
+            <EditText
+                android:id="@+id/aktywaTrwaleUb3"
+                android:layout_width="0dp"
+                android:layout_height="55dp"
+                android:layout_weight="3"
+                android:ems="10"
+                android:inputType="numberDecimal|numberSigned"
+                android:text="0" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="75dp"
+            android:gravity="center_vertical|center_horizontal"
+            android:weightSum="10">
+
+            <Button
+                android:id="@+id/button5"
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_weight="3"
+                android:background="@drawable/button"
+                android:onClick="wyliczAktywaTrwale"
+                android:text="WYLICZ"
+                android:textColor="@android:color/background_light" />
+
+            <Button
+                android:id="@+id/button"
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_weight="4"
+                android:background="@drawable/button"
+                android:onClick="zapiszAktywaTrwale"
+                android:text="Przejdz do aktyw obrotowych"
+                android:textColor="@android:color/background_light" />
+        </TableRow>
+
+    </LinearLayout>
+
+</RelativeLayout>

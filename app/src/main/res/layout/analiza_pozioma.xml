@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/imageView"
+        style="@style/BackGroundImage"
+        android:layout_width="match_parent"
+        android:layout_height="405dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:visibility="visible" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:weightSum="1">
+
+            <TextView
+                android:id="@+id/textView14"
+                android:layout_width="match_parent"
+                android:layout_height="29dp"
+                android:text="ANALIA POZIOMA BILANSU"
+                android:textAlignment="center"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:weightSum="10">
+
+                <TextView
+                    android:id="@+id/wsk_dynAT"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="5"
+                    android:paddingLeft="5dp"
+                    android:paddingTop="-10dp"
+                    android:text="Wskaźnik dynamiki aktywów trwałych"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/wsk_dynAT1"
+                    android:layout_width="0dp"
+                    android:layout_height="50dp"
+                    android:layout_weight="5
+"
+                    android:ems="10"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:weightSum="10">
+
+                <TextView
+                    android:id="@+id/wsk_dynAO"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="5"
+                    android:paddingLeft="5dp"
+                    android:paddingTop="-10dp"
+                    android:text="Wskaźnik dynamiki aktywów obrotowych"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/wsk_dynAO1"
+                    android:layout_width="0dp"
+                    android:layout_height="55dp"
+                    android:layout_weight="5"
+                    android:ems="10"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:weightSum="10">
+
+                <TextView
+                    android:id="@+id/wsk_dynA"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="5"
+                    android:paddingLeft="5dp"
+                    android:text="Wskaźnik dynamiki aktywów"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/wsk_dynA1"
+                    android:layout_width="0dp"
+                    android:layout_height="55dp"
+                    android:layout_weight="5"
+                    android:ems="10"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:weightSum="10">
+
+                <TextView
+                    android:id="@+id/wsk_dynKW"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="5"
+                    android:paddingLeft="5dp"
+                    android:text="Wskaźnik dynamiki kapitałów własnych"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/wsk_dynKW1"
+                    android:layout_width="0dp"
+                    android:layout_height="55dp"
+                    android:layout_weight="5"
+                    android:ems="10"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:weightSum="10">
+
+                <TextView
+                    android:id="@+id/wsk_dynKO"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="5"
+                    android:paddingLeft="5dp"
+                    android:text="Wskaźnik dynamiki kapitałów obcych"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/wsk_dynKO1"
+                    android:layout_width="0dp"
+                    android:layout_height="55dp"
+                    android:layout_weight="5"
+                    android:ems="10"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:weightSum="10">
+
+                <TextView
+                    android:id="@+id/wsk_dynP"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="5"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="20dp"
+                    android:text="Wskaźnik dynamiki pasyw"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/wsk_dynP1"
+                    android:layout_width="0dp"
+                    android:layout_height="55dp"
+                    android:layout_weight="5"
+                    android:ems="10"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical|center_horizontal"
+                android:weightSum="9">
+
+                <Button
+                    android:id="@+id/button"
+                    android:layout_width="0dp"
+                    android:layout_height="50dp"
+                    android:layout_weight="3"
+                    android:background="@drawable/button"
+                    android:onClick="przejdzWskTempaZmian"
+                    android:text="DALEJ"
+                    android:textColor="@android:color/background_light" />
+            </TableRow>
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

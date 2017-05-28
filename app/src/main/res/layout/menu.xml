@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/imageView"
+        style="@style/BackGroundImage"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:visibility="visible" />
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:weightSum="1"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="160dp"
+            android:layout_gravity="center_vertical"
+            android:gravity="center"
+            android:weightSum="9">
+
+            <Button
+                android:id="@+id/button1"
+                android:layout_width="0dp"
+                android:layout_height="130dp"
+                android:layout_weight="4"
+                android:background="@drawable/button"
+                android:onClick="bilans"
+                android:text="Bilans"
+                android:textColor="@android:color/background_light"
+                android:textSize="24sp" />
+
+            <Button
+                android:id="@+id/button2"
+                android:layout_width="0dp"
+                android:layout_height="130dp"
+                android:layout_weight="4"
+                android:background="@drawable/button"
+                android:onClick="przejdzDoAnalizy"
+                android:text="Analiza"
+                android:textColor="@android:color/background_light"
+                android:textSize="24sp" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="252dp"
+            android:layout_gravity="center_vertical"
+            android:gravity="top|center"
+            android:weightSum="9">
+
+            <Button
+                android:id="@+id/button3"
+                android:layout_width="0dp"
+                android:layout_height="130dp"
+                android:layout_weight="4"
+                android:background="@drawable/button"
+                android:onClick="przejdzDoWynikow"
+                android:text="Wyniki"
+                android:textColor="@android:color/background_light"
+                android:textSize="24sp" />
+
+        </TableRow>
+
+    </LinearLayout>
+
+</RelativeLayout>

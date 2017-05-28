@@ -1,0 +1,376 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/imageView"
+        style="@style/BackGroundImage"
+        android:layout_width="match_parent"
+        android:layout_height="405dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:visibility="visible" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:weightSum="1">
+
+            <TextView
+                android:id="@+id/textView14"
+                android:layout_width="match_parent"
+                android:layout_height="29dp"
+                android:text="PASYWA"
+                android:textAlignment="center"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:weightSum="10">
+
+                <TextView
+                    android:id="@+id/pasywa"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="4"
+                    android:paddingLeft="5dp"
+                    android:text="PASYWA"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/rok_biezacy3"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="3"
+                    android:text="ROK BIEŻĄCY"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/rok_ubiegly3"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="ROK UBIEGŁY"
+                    android:textStyle="bold"
+                    android:layout_weight="3" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:weightSum="10">
+
+                <TextView
+                    android:id="@+id/kap_wl"
+                    android:layout_width="0dp"
+                    android:layout_height="50dp"
+                    android:paddingLeft="5dp"
+                    android:paddingTop="-10dp"
+                    android:text="A. KAPITAŁ WŁASNY"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    android:layout_weight="4" />
+
+                <TextView
+                    android:id="@+id/kap_wl1"
+                    android:layout_width="0dp"
+                    android:layout_height="50dp"
+                    android:layout_weight="3"
+                    android:ems="10"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/kap_wl2"
+                    android:layout_width="0dp"
+                    android:layout_height="50dp"
+                    android:layout_weight="3"
+                    android:ems="10"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="62dp"
+                android:weightSum="10">
+
+                <TextView
+                    android:id="@+id/kap_podst"
+                    android:layout_width="0dp"
+                    android:layout_height="55dp"
+                    android:layout_weight="4"
+                    android:paddingLeft="5dp"
+                    android:text="I. Kapitał podstawowy"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+
+                <EditText
+                    android:id="@+id/pasywa1"
+                    android:layout_width="0dp"
+                    android:layout_height="55dp"
+                    android:layout_weight="3"
+                    android:ems="10"
+                    android:inputType="numberDecimal|numberSigned"
+                    android:text="0" />
+
+                <EditText
+                    android:id="@+id/pasywaub1"
+                    android:layout_width="0dp"
+                    android:layout_height="55dp"
+                    android:layout_weight="3"
+                    android:ems="10"
+                    android:inputType="numberDecimal|numberSigned"
+                    android:text="0" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="53dp"
+                android:weightSum="10">
+
+                <TextView
+                    android:id="@+id/kap_zapas"
+                    android:layout_width="0dp"
+                    android:layout_height="55dp"
+                    android:paddingLeft="5dp"
+                    android:text="II. Kapitał zapasowy"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    android:layout_weight="4" />
+
+                <EditText
+                    android:id="@+id/pasywa2"
+                    android:layout_width="0dp"
+                    android:layout_height="55dp"
+                    android:layout_weight="3"
+                    android:ems="10"
+                    android:inputType="numberDecimal|numberSigned"
+                    android:text="0" />
+
+                <EditText
+                    android:id="@+id/pasywaub2"
+                    android:layout_width="0dp"
+                    android:layout_height="55dp"
+                    android:layout_weight="3"
+                    android:ems="10"
+                    android:inputType="numberDecimal|numberSigned"
+                    android:text="0" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:weightSum="10">
+
+                <TextView
+                    android:id="@+id/zysk_netto"
+                    android:layout_width="0dp"
+                    android:layout_height="55dp"
+                    android:paddingLeft="5dp"
+                    android:text="III. Zysk netto"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    android:layout_weight="4" />
+
+                <EditText
+                    android:id="@+id/pasywa3"
+                    android:layout_width="0dp"
+                    android:layout_height="55dp"
+                    android:layout_weight="3"
+                    android:ems="10"
+                    android:inputType="numberDecimal|numberSigned"
+                    android:text="0" />
+
+                <EditText
+                    android:id="@+id/pasywaub3"
+                    android:layout_width="0dp"
+                    android:layout_height="55dp"
+                    android:layout_weight="3"
+                    android:ems="10"
+                    android:inputType="numberDecimal|numberSigned"
+                    android:text="0" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="82dp"
+                android:weightSum="10">
+
+                <TextView
+                    android:id="@+id/zobowiazania"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="4"
+                    android:paddingLeft="5dp"
+                    android:paddingTop="-10dp"
+                    android:text="B. ZOBOWIĄZANIA I REZERWY NA ZOBOWIĄZANIA"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/zobowiazania1"
+                    android:layout_width="0dp"
+                    android:layout_height="55dp"
+                    android:layout_weight="3"
+                    android:ems="10"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/zobowiazania2"
+                    android:layout_width="0dp"
+                    android:layout_height="55dp"
+                    android:layout_weight="3"
+                    android:ems="10"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:weightSum="10">
+
+                <TextView
+                    android:id="@+id/zob_dl"
+                    android:layout_width="0dp"
+                    android:layout_height="55dp"
+                    android:paddingLeft="5dp"
+                    android:text="I. Zobowiazania długoterminowe"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    android:layout_weight="4" />
+
+                <EditText
+                    android:id="@+id/pasywa4"
+                    android:layout_width="0dp"
+                    android:layout_height="55dp"
+                    android:layout_weight="3"
+                    android:ems="10"
+                    android:inputType="numberDecimal|numberSigned"
+                    android:text="0" />
+
+                <EditText
+                    android:id="@+id/pasywaub4"
+                    android:layout_width="0dp"
+                    android:layout_height="55dp"
+                    android:layout_weight="3"
+                    android:ems="10"
+                    android:inputType="numberDecimal|numberSigned"
+                    android:text="0" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="64dp"
+                android:weightSum="10">
+
+                <TextView
+                    android:id="@+id/zob_kr"
+                    android:layout_width="0dp"
+                    android:layout_height="55dp"
+                    android:paddingLeft="5dp"
+                    android:text="II. Zobowiazania krótkoterminowe"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    android:layout_weight="4" />
+
+                <EditText
+                    android:id="@+id/pasywa5"
+                    android:layout_width="0dp"
+                    android:layout_height="55dp"
+                    android:layout_weight="3"
+                    android:ems="10"
+                    android:inputType="numberDecimal|numberSigned"
+                    android:text="0" />
+
+                <EditText
+                    android:id="@+id/pasywaub5"
+                    android:layout_width="0dp"
+                    android:layout_height="55dp"
+                    android:layout_weight="3"
+                    android:ems="10"
+                    android:inputType="numberDecimal|numberSigned"
+                    android:text="0" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="68dp"
+                android:weightSum="10">
+
+                <TextView
+                    android:id="@+id/pasywa_razem"
+                    android:layout_width="0dp"
+                    android:layout_height="55dp"
+                    android:paddingLeft="5dp"
+                    android:text="PASYWA RAZEM"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    android:layout_weight="4" />
+
+                <TextView
+                    android:id="@+id/pasywa_razem1"
+                    android:layout_width="0dp"
+                    android:layout_height="55dp"
+                    android:layout_weight="3"
+                    android:ems="10"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/pasywa_razem2"
+                    android:layout_width="0dp"
+                    android:layout_height="55dp"
+                    android:layout_weight="3"
+                    android:ems="10"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="75dp"
+                android:gravity="center_vertical|center_horizontal"
+                android:weightSum="9">
+
+                <Button
+                    android:id="@+id/button5"
+                    android:layout_width="0dp"
+                    android:layout_height="50dp"
+                    android:layout_weight="3"
+                    android:background="@drawable/button"
+                    android:onClick="wyliczPasywa"
+                    android:text="WYLICZ"
+                    android:textColor="@android:color/background_light" />
+
+                <Button
+                    android:id="@+id/button"
+                    android:layout_width="0dp"
+                    android:layout_height="50dp"
+                    android:layout_weight="3"
+                    android:background="@drawable/button"
+                    android:onClick="zapiszPasywa"
+                    android:text="ZAPISZ"
+                    android:textColor="@android:color/background_light" />
+            </TableRow>
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>
