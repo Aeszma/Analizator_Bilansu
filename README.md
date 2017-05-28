@@ -160,7 +160,7 @@ public void zapiszPasywa(View view) {
  public void przejdzWskTempaZmian(View view) {};
  public void przejdzWskPokrycia(View view) {};
  public void okAnalizaPozioma(View view) {};
-
+```
 
 ## Autorzy
 
